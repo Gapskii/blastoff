@@ -1,0 +1,1 @@
+# QUESTÃO 6. Um arquivo externo chamado style.css precisa ser carregado na página HTML. Escreva o código para fazer tal carregamento.

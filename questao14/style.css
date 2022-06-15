@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+header {
+    grid-column: 5 span;
+}
+
+main {
+    grid-area: 2/2/3/4;
+}
+
+menu {
+    grid-row: 2/4;
+}
+
+#right {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+footer {
+    grid-area: 3/2/4/5
+}
+
+

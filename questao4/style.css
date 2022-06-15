@@ -1,0 +1,12 @@
+/* Por padrão, todos os itens de uma lista já estão na vertical. devido ao */
+
+ul {
+    display: block;
+}
+
+/* Utilizando grid, este seria o caminho */
+
+ul {
+    display: grid;
+    grid-auto-flow: row;
+}
